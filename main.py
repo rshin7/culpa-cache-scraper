@@ -52,13 +52,13 @@ def scrape_reviews(id):
             pass
 
         data['reviews'].append({
-            'course_name' : review_course, #need to make this valid JSON (underscore)
+            'course_name' : review_course,
             'review_date' : review_date,
             'review_content' : review_content
         })
 
     data['prof_info'].append({
-        'prof_name' : prof_name, #need to make this valid JSON (underscore)
+        'prof_name' : prof_name,
         'prof_id' : id, 
         'total_reviews' : len(data['reviews'])
     })
