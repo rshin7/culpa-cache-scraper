@@ -10,7 +10,7 @@ This project is broken up into three parts: the Scraper, the API, and the React 
 
 This portion of the project contains the scraper which was used to scrape CULPA. A tar.gz of the scraped data can be found with the [culpa-cache-api](https://github.com/rshin7/culpa-cache-api) repository so you do not have to scrape again.
 
-# Getting Started
+## Getting Started
 
 
 `main.py` scrapes CULPA (or Wayback Machine archives) for all pertinent information: professor name, professor ID (as assigned by CULPA), course name of the review, date of the review, review content.
@@ -30,7 +30,7 @@ There are two measures in place to prevent rate limitation:
 
 ---
 
-### prof-{id}.json Structure Example
+## prof-{id}.json Structure Example
 
 ```json
 {
@@ -60,7 +60,7 @@ There are two measures in place to prevent rate limitation:
     ]
 }
 ```
-### all_professors.json Structure Example
+## all_professors.json Structure Example
 ```json
 [
   {
@@ -80,7 +80,7 @@ There are two measures in place to prevent rate limitation:
 
 ---
 
-### Required Packages:
+## Required Packages:
 You will need to install these packages to get started:
 * `pip install requests`
 * `pip install beautifulsoup4`
