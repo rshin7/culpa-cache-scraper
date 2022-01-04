@@ -2,6 +2,14 @@
 
 Created by: [Richard Shin](https://www.rshin.dev/)
 
+![CULPA Cache Flow](https://raw.githubusercontent.com/rshin7/culpa-cache-scraper/master/imgs/culpa-cache_flow.png)
+
+This project exists to preserve the thousands of reviews that was hosted on CULPA, the unofficial professor and course review site for Columbia University. During the summer of 2021, the site started timing out during peak loads.
+
+This project is broken up into three parts: the Scraper, the API, and the React App.
+
+This portion of the project contains the scraper which was used to scrape CULPA. A tar.gz of the scraped data can be found with the [culpa-cache-api](https://github.com/rshin7/culpa-cache-api) repository so you do not have to scrape again.
+
 `main.py` scrapes CULPA (or Wayback Machine archives) for all pertinent information: professor name, professor ID (as assigned by CULPA), course name of the review, date of the review, review content.
 
 Since professor ID's are not 100% incremental (well, maybe they were, but some are missing/deleted/not cached), the script begins scraping from professor ID 1.
