@@ -84,3 +84,7 @@ There are two measures in place to prevent rate limitation:
 You will need to install these packages to get started:
 * `pip install requests`
 * `pip install beautifulsoup4`
+
+## License
+
+[GNU General Public License v3.0](https://github.com/rshin7/culpa-cache-scraper/blob/master/LICENSE.md)
